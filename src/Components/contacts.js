@@ -16,7 +16,7 @@ function Contacts() {
         {/* First box on the left with contact details down here -> */}
         <div className="ContactInfo">
 
-          <img className="ContactInfoBackground" src={require('./../Assets/location.png')} alt="location.jpg" />
+          <img className="ContactInfoBackground" src={require('./../Assets/Contact/location.png')} alt="location.jpg" />
 
           <div className="TextInfoStyle">
             <h1 className="InfoTextStyle">
@@ -35,10 +35,10 @@ function Contacts() {
 
         <div className="ContactInput">
 
-          <img className="ContactInputBackground" src={require('./../Assets/office.jpg')} alt="location.jpg" />
+          <img className="ContactInputBackground" src={require('./../Assets/Contact/ContactLeft.jpg')} alt="location.jpg" />
 
           <div className="TextInputStyle">
-            <form>
+            <form action="mailto:istrate.andrei1@yahoo.com" method="post" enctype="text/plain">
               <p className="InputParagraphStyle">
                 Please let me know if there is anything that needs improvement.
               </p>

@@ -13,15 +13,15 @@ function Sports() {
             <div className="SportsStory">
 
                 <div className="FootballContent" >
-                    <img className="ContactInfoBackground" src={require('./../Assets/footballstory.jpg')} alt="location.jpg" />
+                    <img className="SportInfoBackground" src={require('./../Assets/Sports/footballstory.jpg')} alt="location.jpg" />
                 </div>
 
                 <div className="VolleyballContent" >
-                    <img className="ContactInfoBackground" src={require('./../Assets/volleyballstory.jpg')} alt="location.jpg" />
+                    <img className="SportInfoBackground" src={require('./../Assets/Sports/volleyballstory.jpg')} alt="location.jpg" />
                 </div>
 
                 <div className="BoxContent" >
-                    <img className="ContactInfoBackground" src={require('./../Assets/fightstory.jpg')} alt="location.jpg" />
+                    <img className="SportInfoBackground" src={require('./../Assets/Sports/fightstory.jpg')} alt="location.jpg" />
                 </div>
 
             </div>

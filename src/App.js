@@ -6,6 +6,10 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
+import './Components/HomeComponents/HomeCSS.css';
+import './Components/AboutComponents/AboutCSS.css';
+import './Components/HobbiesComponents/HobbiesCSS.css';
+import './Components/Contact/ContactCSS.css';
 
 import Home from './Components/Home';
 import About from './Components/About';

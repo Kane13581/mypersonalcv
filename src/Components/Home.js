@@ -23,15 +23,15 @@ function Home() {
 
             <div class="carousel-inner">
               <div class="item active">
-                <img className="HomeCarFirstImg" src={require('./../Assets/slide1.jpg')} alt="location.jpg" />
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide1.jpg')} alt="location.jpg" />
               </div>
 
               <div class="item">
-                <img className="HomeCarFirstImg" src={require('./../Assets/slide2.jpg')} alt="location.jpg" />
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide2.jpg')} alt="location.jpg" />
               </div>
 
               <div class="item">
-                <img className="HomeCarFirstImg" src={require('./../Assets/slide3.jpg')} alt="location.jpg" />
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide3.jpg')} alt="location.jpg" />
               </div>
             </div>
 
@@ -47,26 +47,19 @@ function Home() {
           </div>
 
         </div>
-        <div>
-          <img className="TopImagePng" src={require('./../Assets/maybe/deskjob2.jpg')} alt="location.jpg" />
-        </div>
-        <div>
-          <img className="TopImagePng2" src={require('./../Assets/maybe/hacker1.jpg')} alt="location.jpg" />
-        </div>
-
 
         <div className="HomeLeftPictures">
-          <div className="HomeTopPicture">
-            <img className="TopImage" src={require('./../Assets/maybe/hacker1mod.jpg')} alt="location.jpg" />
-          </div>
-          <div className="HomeLowerPicture">
-            <img className="LowerImage" src={require('./../Assets/deskjobmod.jpg')} alt="location.jpg" />
-          </div>
+          <img className="HomeImageWho" src={require('./../Assets/Home/who.jpg')} alt="location.jpg" />
+        </div>
 
+        <div className="HomeBlackBoard">
+          <div className="HomeDetailsContainer">
+            <img className="HomeQRcode" src={require('./../Assets/Home/QRcodeGit.png')} alt="location.jpg" />
+            <img className="HomeQRcode1" src={require('./../Assets/Home/QRcodeLink.png')} alt="location.jpg" />
+          </div>
         </div>
 
       </div>
-
     </div>
   );
 }

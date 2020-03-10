@@ -1,0 +1,112 @@
+.AboutButtonStyle {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    text-align: center;
+    animation-name: HomeStyleAnim;
+    animation-duration: 6s;
+  }
+  
+  .AboutPageStyle {
+    position: relative;
+    width: 100vw;
+  }
+  
+  
+  .AboutTopStyle {
+    text-align: center;
+    width: 100vw;
+    background-image: url(./../../Assets//About/matrix.jpg);
+    background-size: cover;
+    height: 13vh;
+    border-top: 15px black solid;
+    border-bottom: 15px black solid;
+  }
+  
+  .AboutH1Style {
+  font-size: 3vw;
+  color: #dfdfdf;
+  
+  }
+  
+  .AboutContainer {
+    background-image: url(./../../Assets//About/matrix.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .AboutPopUp1 {
+    display: flex;
+    border: black 10px solid;
+    justify-content: center;
+  
+  }
+  
+  
+  .AboutPopUpStyle1 {
+    color: #000000;
+    font-size: 2vw;
+    background-image: url(./../../Assets/About/simple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+  }
+  
+  .ModalButtonStyle {
+    color: #000000;
+    font-size: 2vw;
+    background-image: url(./../../Assets/About/simple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15vw;
+  }
+  
+  .AboutPopUpStyle2 {
+    color: #000000;
+    font-size: 2vw;
+    background-image: url(./../../Assets/About/simple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+  
+  }
+  
+  .HtmlStyle {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .AboutComponentButton {
+    background-image: url(./../../Assets/About/simple.jpg);
+    background-size: cover;
+    width: 24vw;
+    height: 3vh;
+    margin: 23px 23px 23px; 
+    border: 2px black solid;
+  }
+  
+  .AboutComponentsH1 {
+    font-size: 1vw;
+    color: #dfdfdf;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  :any-link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  :any-link:active {
+    color: #dfdfdf;
+    text-decoration: none;
+  }
+  
+  :any-link:visited {
+    color: #dfdfdf;
+    text-decoration: none;
+  }

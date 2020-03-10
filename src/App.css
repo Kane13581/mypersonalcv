@@ -33,7 +33,7 @@ body {
 
 /* Area for styling Home Page -> */
 
-.HomeButtonStyle {
+/* .HomeButtonStyle {
   font-size: 25px;
   color: rgb(255, 255, 255);
   letter-spacing: 5px;
@@ -66,7 +66,263 @@ body {
 .HomeBottomTextStyle {
   width: 6vw;
   font-weight: bold;
+    -webkit-animation: text-flicker-out-glow 30s linear both;
+            animation: text-flicker-out-glow 30s linear both;
 }
+
+
+@-webkit-keyframes text-flicker-out-glow {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  13.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  14% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  14.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  15% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  22.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  23% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  24.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  25% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  34.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  35% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  39.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  40% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  42.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  43% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  44.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  54.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  69.4% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  69.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  69.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  70% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  79.4% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  79.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  80% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  89.8% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  89.9% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  90% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes text-flicker-out-glow {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  13.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  14% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  14.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  15% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  22.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  23% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  24.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  25% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  34.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  35% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  39.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  40% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  42.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  43% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  44.9% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  54.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  69.4% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  69.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  69.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  70% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  79.4% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  79.9% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  80% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  89.8% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  89.9% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  90% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
 
 .HomeBackround {
   height: 46px;
@@ -94,46 +350,24 @@ body {
 .HomeLeftPictures {
   position: absolute;
   left: 0;
+  margin-top: 14vh;
+  margin-left: 4vw;
+  width: 30vw;
+  height: 45vh;
 }
 
 .HomeTopPicture {
   position: relative;
 }
 
-.TopImagePng {
+.HomeImageWho {
   position: absolute;
   left: 0;
-  width: 35vw;
-  height: 37vh;
-  margin-top: 4vh;
-  margin-left: 4vw;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  border-radius: 10%;
-/* 
-  -webkit-clip-path: polygon(100% 0, 47% 30%, 100% 44%, 45% 70%, 100% 100%, 0 100%, 0 0);
-  clip-path: polygon(100% 0, 47% 30%, 100% 44%, 45% 70%, 100% 100%, 0 100%, 0 0);
-   */
+  width: 20vw;
+  height: 35vh;
+  border: 15px solid #353738;
 }
 
-.TopImagePng2 {
-  position: absolute;
-  left: 0;
-  width: 35vw;
-  height: 37vh;
-  margin-top: 4vh;
-  margin-left: 4vw;
-  border-radius: 10%;
-
-  -webkit-clip-path: polygon(40% 0, 51% 32%, 48% 57%, 61% 69%, 59% 83%, 85% 100%, 0 100%, 0 0);
-  clip-path: polygon(40% 0, 51% 32%, 48% 57%, 61% 69%, 59% 83%, 85% 100%, 0 100%, 0 0);
-  
-}
-
-.TopImagePng:hover {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
 
 .TopImage {
   position: absolute;
@@ -147,30 +381,39 @@ body {
   border-radius: 10%;
 }
 
-.LowerImage {
-  position: absolute;
-  left: 0;
-  width: 35vw;
-  height: 37vh;
-  margin-top: 59vh;
-  margin-left: 4vw;
-  -webkit-clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0 100%);
-  clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0 100%);
-  border-radius: 10%;
-}
-
-
 .HomeCarFirstImg {
   width: 100%;
   max-width: 500px;
   max-height: 600px;
 }
 
+.HomeQRcode{
+  box-sizing: content-box;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 6vw;
+  margin-bottom: 31vh;
+  margin-left: 4vw;
+  border: #353738 solid 8px;
+}
+
+.HomeQRcode1{
+  box-sizing: content-box;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 6vw;
+  margin-bottom: 11vh;
+  margin-left: 4vw;
+  border: #353738 solid 8px;
+} */
+
 /* Area for styling Home Page <- */
 
 /* Area for styling Hobbies Page -> */
 
-.HobbiesButtonStyle {
+/* .HobbiesButtonStyle {
   font-size: 25px;
   color: rgb(255, 255, 255);
   letter-spacing: 5px;
@@ -292,8 +535,7 @@ body {
 
 .SportsPageStyle {
   position: relative;
-
-  
+  height: 70vh;
 }
 
 
@@ -305,6 +547,28 @@ body {
   text-align: center;
   background-image: url(./Assets/blackfade.jpg);
   background-size: cover;
+}
+
+.SportInfoBackground {
+
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .9s ease-in-out;
+  transition: .9s ease-in-out;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  position: relative;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s;
+}
+
+
+.SportInfoBackground:hover {
+  -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 .BoxStoryPar {
@@ -325,6 +589,7 @@ body {
   background-image: url(./Assets/blackfade.jpg);
   color: #dfdfdf;
   padding: 10px 10px 10px;
+  margin-top: 10px;
 }
 
 .SportsPageStyle {
@@ -416,7 +681,7 @@ body {
   100% {
     transform: skew(-20deg, -20deg);
   }
-}
+} */
 
 
 
@@ -432,7 +697,7 @@ body {
   transition: .9s ease-in-out;
 } */
 
-.ITBorderImg:hover {
+/* .ITBorderImg:hover {
   -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
@@ -545,7 +810,6 @@ top: 0;
 .MovieCropContainer {
   margin-top: 29.4vh;
   position: absolute;
-  border: red solid 1px;
   width: 100vw;
   height: 50.5vh;
 }
@@ -670,7 +934,7 @@ transform: rotate(5deg);
   clip-path: polygon(51% 76%, 92% 76%, 95% 98%, 43% 99%, 45% 86%);
   
   
-}
+} */
 
 /* Area for styling Hobbies Page <- */
 
@@ -678,7 +942,7 @@ transform: rotate(5deg);
 
 /* Area for styling Contact Page -> */
 
-.ContactsButtonStyle {
+/* .ContactsButtonStyle {
   font-size: 25px;
   color: white;
   letter-spacing: 5px;
@@ -822,7 +1086,7 @@ bottom: 0;
 
 .InputParagraphStyle {
   font-weight: bold;
-}
+} */
 
 /* Area for styling Contact Page <- */
 
@@ -830,7 +1094,7 @@ bottom: 0;
 
 
 /* Area for styling About page -> */
-
+/* 
 .AboutButtonStyle {
   font-size: 25px;
   color: rgb(255, 255, 255);
@@ -849,7 +1113,7 @@ bottom: 0;
 .AboutTopStyle {
   text-align: center;
   width: 100vw;
-  background-image: url(./Assets/matrix.jpg);
+  background-image: url(./Assets/About/matrix.jpg);
   background-size: cover;
   height: 13vh;
   border-top: 15px black solid;
@@ -863,7 +1127,7 @@ color: #dfdfdf;
 }
 
 .AboutContainer {
-  background-image: url(./Assets/matrix.jpg);
+  background-image: url(./Assets/About/matrix.jpg);
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -880,7 +1144,7 @@ color: #dfdfdf;
 .AboutPopUpStyle1 {
   color: #000000;
   font-size: 2vw;
-  background-image: url(./Assets/simple.jpg);
+  background-image: url(./Assets/About/simple.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 30vw;
@@ -889,7 +1153,7 @@ color: #dfdfdf;
 .ModalButtonStyle {
   color: #000000;
   font-size: 2vw;
-  background-image: url(./Assets/simple.jpg);
+  background-image: url(./Assets/About/simple.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 15vw;
@@ -898,7 +1162,7 @@ color: #dfdfdf;
 .AboutPopUpStyle2 {
   color: #000000;
   font-size: 2vw;
-  background-image: url(./Assets/simple.jpg);
+  background-image: url(./Assets/About/simple.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 30vw;
@@ -912,7 +1176,7 @@ color: #dfdfdf;
 }
 
 .AboutComponentButton {
-  background-image: url(./Assets/simple.jpg);
+  background-image: url(./Assets/About/simple.jpg);
   background-size: cover;
   width: 24vw;
   height: 3vh;
@@ -942,7 +1206,7 @@ color: #dfdfdf;
 :any-link:visited {
   color: #dfdfdf;
   text-decoration: none;
-}
+} */
 
 
 /* Area for styling About page <- */
