@@ -43,6 +43,28 @@
   
   }
   
+  .AboutH2Text {
+    font-size: 5vh;
+  }
+
+  .AboutPText {
+    margin-top: 5vh;
+    font-size: 3vh;
+    
+  }
+
+  .ModalButtonStyle {
+    color: #000000;
+    font-size: 2vw;
+    background-image: url(./../../Assets/About/paper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 2vw 2vw 0;
+  }
   
   .AboutPopUpStyle1 {
     color: #000000;
@@ -51,16 +73,35 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 30vw;
+    -webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
-  
-  .ModalButtonStyle {
-    color: #000000;
-    font-size: 2vw;
-    background-image: url(./../../Assets/About/simple.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 15vw;
+
+@-webkit-keyframes tilt-in-top-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+            transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    opacity: 0;
   }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+@keyframes tilt-in-top-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+            transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+
   
   .AboutPopUpStyle2 {
     color: #000000;
@@ -75,9 +116,36 @@
   .HtmlStyle {
     display: flex;
     justify-content: center;
-    
+      -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   
+ @-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
   .AboutComponentButton {
     background-image: url(./../../Assets/About/simple.jpg);
     background-size: cover;

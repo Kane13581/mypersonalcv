@@ -37,8 +37,8 @@ function About() {
               }
             }
           >
-            <h2>Web Development<span class="modal-trigger" ></span> </h2>
-            <p>HTML5 / CSS3: How to build a User Interface.<br></br>
+            <h2 className="AboutH2Text">Web Development<span class="modal-trigger" ></span> </h2>
+            <p className="AboutPText">HTML5 / CSS3: How to build a User Interface.<br></br>
               JAVASCRIPT: How to use variables, functions, objects, scope, AJAX, jQuery, DOM. <br></br>
               HTTP: Fundamentals about the protocol: methods, headers, error codes.<br></br>
               PHP: How to use variables, functions, classes, includes interaction with the browser and CRUD operations on a database (MySql).<br></br>
