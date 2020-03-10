@@ -18,20 +18,34 @@ function Home() {
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
             </ol>
 
 
             <div class="carousel-inner">
               <div class="item active">
-                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide1.jpg')} alt="location.jpg" />
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide7.jpg')} alt="location.jpg" />
               </div>
 
               <div class="item">
-                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide2.jpg')} alt="location.jpg" />
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide6.jpg')} alt="location.jpg" />
               </div>
 
               <div class="item">
-                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide3.jpg')} alt="location.jpg" />
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide8.jpg')} alt="location.jpg" />
+              </div>
+
+              <div class="item">
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide4.jpg')} alt="location.jpg" />
+              </div>
+
+              <div class="item">
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide5.jpg')} alt="location.jpg" />
+              </div>
+              <div class="item">
+                <img className="HomeCarFirstImg" src={require('./../Assets/Home/slide9.jpg')} alt="location.jpg" />
               </div>
             </div>
 
