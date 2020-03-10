@@ -10,7 +10,7 @@ import {
 import IT from './IT';
 import Movies from "./Movies";
 import Sports from "./Sports";
-import MoveToTop from "./HobbiesComponents/MoveToTop";
+
 
 
 function Hobbies() {
@@ -46,11 +46,9 @@ function Hobbies() {
                             <h3 className="HobbieSelect">If you like to see more information about a specific hobby, please select it.</h3>
                         </div>
                         <div className="HobbieBackground">
-                            <img className="GlowAnimation" src={require('./../Assets/star.png')} alt="location.jpg" />
+                            <img className="GlowAnimation" src={require('./../Assets/smoke1.png')} alt="location.jpg" />
                         </div>
-                        <div>
-                            <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i>Back to top!</a>
-                        </div>
+
 
                     </Route>
                     <Route path="/Hobbies/Sports">

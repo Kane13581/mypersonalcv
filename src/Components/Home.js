@@ -47,6 +47,24 @@ function Home() {
           </div>
 
         </div>
+        <div>
+          <img className="TopImagePng" src={require('./../Assets/maybe/deskjob2.jpg')} alt="location.jpg" />
+        </div>
+        <div>
+          <img className="TopImagePng2" src={require('./../Assets/maybe/hacker1.jpg')} alt="location.jpg" />
+        </div>
+
+
+        <div className="HomeLeftPictures">
+          <div className="HomeTopPicture">
+            <img className="TopImage" src={require('./../Assets/maybe/hacker1mod.jpg')} alt="location.jpg" />
+          </div>
+          <div className="HomeLowerPicture">
+            <img className="LowerImage" src={require('./../Assets/deskjobmod.jpg')} alt="location.jpg" />
+          </div>
+
+        </div>
+
       </div>
 
     </div>
