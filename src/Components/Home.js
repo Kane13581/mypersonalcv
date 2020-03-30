@@ -68,7 +68,13 @@ function Home() {
 
         <div className="HomeBlackBoard">
           <div className="HomeDetailsContainer">
+          <div className="HomeQRText">
+          <h1 className="HomeFirstQRText"> --> Check out my Github account. </h1>
+          </div>
             <img className="HomeQRcode" src={require('./../Assets/Home/QRcodeGit.png')} alt="location.jpg" />
+            <div className="HomeQRText2">
+          <h1 className="HomeFirstQRText"> --> Check out my LinkedIn account. </h1>
+          </div>
             <img className="HomeQRcode1" src={require('./../Assets/Home/QRcodeLink.png')} alt="location.jpg" />
           </div>
         </div>

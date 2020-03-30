@@ -407,6 +407,27 @@
             animation: roll-in-left 2s ease-out both;
   }
 
+  .HomeQRText {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 13vw;
+    margin-bottom: 36vh;
+  }
+
+  .HomeQRText2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 13vw;
+    margin-bottom: 16vh;
+  }
+
+  .HomeFirstQRText {
+    font-size: 2vh;
+    font-weight: bold;
+  }
+
 
 @-webkit-keyframes roll-in-left {
   0% {
